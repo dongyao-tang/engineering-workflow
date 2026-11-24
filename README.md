@@ -1,3 +1,7 @@
+## 在线预览
+[![Deploy Status](https://github.com/dongyao-tang/engineering-workflow/actions/workflows/deploy.yml/badge.svg)](https://dongyao-tang.github.io/engineering-workflow/)
+👉 https://dongyao-tang.github.io/engineering-workflow/
+
 # ProjectFlow AI — Bilingual Engineering Analysis
 
 当前范围：V0.9 Reliable Issue Workflow。Engineering Note → Semantic Analysis → 一个或多个双语草稿 → Human Review → Tracker。疑似已有问题更新必须由人选择 Update 或 Create New。
