@@ -1,5 +1,6 @@
 import {defineConfig} from 'vite';
 export default defineConfig({
+base: '/engineering-workflow/',
  plugins:[{name:'deny-private-files',configureServer(server){server.middlewares.use((req,res,next)=>{
   let path:string;try{path=decodeURIComponent((req.url||'').split('?')[0]).replaceAll('\\','/');}catch{res.statusCode=400;res.end();return;}
   if(/(^|\/)\.env(?:\.|\/|$)/i.test(path)||/(^|\/)(server|scripts|\.git)(\/|$)/i.test(path)||/\.ps1$/i.test(path)){res.statusCode=403;res.end('Forbidden');return;}
