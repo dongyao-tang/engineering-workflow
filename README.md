@@ -1,4 +1,9 @@
-# ProjectFlow AI
+## 在线预览
+
+[![Deploy Status](https://github.com/dongyao-tang/engineering-workflow/actions/workflows/deploy.yml/badge.svg)](https://dongyao-tang.github.io/engineering-workflow/)
+👉 https://dongyao-tang.github.io/engineering-workflow/
+
+# ProjectFlow AI — Bilingual Engineering Analysis
 
 AI-Assisted Bilingual Project Engineering Workflow
 
