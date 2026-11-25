@@ -1,14 +1,21 @@
+# 依赖
 node_modules/
+
+# 环境密钥（非常重要，绝对不要上传密钥）
+.env
+.env.local
+.env.*
+
+# 构建产物
 dist/
-.env*
+build/
 
-# vite 缓存
-.vite/
+# 日志、缓存
 *.log
-npm-debug.log*
-
-# 编辑器文件
-.vscode/
+.npm/
 .idea/
-*.tmp
+.vscode/
+
+# 操作系统文件
 .DS_Store
+Thumbs.db
