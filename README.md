@@ -13,6 +13,7 @@ AI-Assisted Bilingual Project Engineering Workflow
 
 本项目是一套双语（中/英）工程项目工作流辅助工具，用于标准化项目开发流程、自动提取项目信息、生成方案摘要、汇总周报。
 前端为 React + TypeScript，搭配本地 Node HTTP 服务，数据持久化在浏览器 localStorage，适合作为前端+AI应用方向作品集项目。
+视频演示：【Video Project】 https://www.bilibili.com/video/BV12YyyzeE82/?share_source=copy_web&vd_source=13481160323f3127785aabaa54ffad9f
 
 ## 🛠 Tech Stack
 
